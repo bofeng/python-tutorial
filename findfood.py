@@ -25,26 +25,27 @@ else:
 turn = raw_input("Turn right or left?")
  
 # Step 6, make a turn according to user's answer:
-# If turn equals "right", then turn right for 90 degree;
-# Otherwise, turn left for 90 degree
+# If turn equals "right", then turn right for 90 degrees;
+# Otherwise, turn left for 90 degrees.
 # Your code here
  
-# Step 7, after turtle make a turn,
-# moving forward according to user's answer
+# Step 7, after turtle made a turn,
+# move forward according to user's answer
 distance2 = raw_input("how far?")
 distance2 = int(distance2)
 nick.forward(distance2)
  
-# Step 8, after done all moving, get turtle's current position
+# Step 8, we are done with all movings, 
+# now get turtle's current position, and print it out
 turtle_pos_x, turtle_pos_y = nick.position()
 turtle_pos_x = int(turtle_pos_x)
 turtle_pos_y = int(turtle_pos_y)
 print "Turtle's position is:", turtle_pos_x, turtle_pos_y
  
-# Step 9, check whether turtle find the food:
-# Check whether turtle x coordinate equals to food x coordinate
-# And whether turtle y corrdinate equals to food y coordinate
-# If both equals, means turtle get the food, and you win!
+# Step 9, check if turtle found the food:
+# Check if turtle x coordinate equals to food x coordinate
+# And turtle y corrdinate equals to food y coordinate
+# If both are equal, means turtle got the food, and you WIN !!
 if (Your code here) and (Your code here):
     print "You find the food! You win!"
 else:
