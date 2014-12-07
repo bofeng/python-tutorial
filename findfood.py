@@ -20,7 +20,7 @@ if direction == "forward":
     # Your code here
 else:
     # Your code here
- 
+
 # Step 5, ask user: turn right or left?    
 turn = raw_input("Turn right or left?")
  
